@@ -1,0 +1,26 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 3px solid #101d33;
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #365e9e;
+}
+body
+{
+	background-image: linear-gradient(to right, #b3e2ff , #b3b3ff);	
+}
+h2
+{
+	font-family: Times New Roman, serif;
+        font-weight: 500;
+        color: #1a4b28;
+        -webkit-text-fill-color: #1a4b28;           
+}

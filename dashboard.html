@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard_s.css">	
+<style type="text/css">
+#b
+{
+  text-align: right;
+  padding: 6px;
+  border-radius: 4px;
+} 
+</style>
+</head> 
+
+    </head>
+    <body>
+     <div id="b"><a href="/dashboard">Dashboard</a> <a href="/getfiles">GetFiles</a></div>
+     <div id="b"></div>
+        <h2>Welcome to your Dashboard!</h2>  
+        <form action="/uploads" method="POST" enctype="multipart/form-data">
+  			<input type="file" name='upfile'>
+  			<p>Drag your files here or click in this area.</p>
+  			<button type="submit">Upload</button>
+		</form>
+    </body>
+    
+</html>

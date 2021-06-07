@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Share File</title>
+</head>
+<h1>You chose the file <i>${file}</i></h1>
+<body>
+<form action="POST" method="/share">
+	<label>Enter the username to share with </label><input type="text" name="sharename" placeholder="USERNAME">
+	<input type="hidden" name="file" value="${file}">
+	<button>Submit</button>
+</form>
+</body>
+</html>
